@@ -1,0 +1,64 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed;
+ }
+ #global{
+    background: white;
+    box-shadow: 6px 6px 2px 0px #703f38;
+}
+#logo{
+    background: #ca3413;
+    color: white;
+}
+#menu{
+    background: rgb(85, 50, 39);
+}
+#menu ul li a:hover{
+    background: #47261e;
+}
+#menu a{
+    color: white;
+}
+.post h2{
+    color:  rgb(163, 129, 125);
+}
+.post .date{
+    color: gray;
+}
+.post a{
+    background: #ca3413; 
+    color: white;
+}
+.post hr{
+    border: 1px solid red;
+}
+#sidebar h4{
+    color: rgb(163, 137, 125);
+}
+#sidebar h4 span{
+    background: white;
+}
+#sidebar img{
+    box-shadow: 0px 3px 8px 3px #703f38;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{
+    border: 1px solid red;
+    box-shadow: 3px 7px 5px 3px gray;
+}
+form input[type="submit"]{
+    background: rgb(163, 133, 125);
+    border: 1px solid gray;
+    box-shadow: 3px 1px 10px 3px gray;
+}
+footer{
+    color: white;
+}
+.ui-accordion-header{
+    color: white !important;
+    background: rgb(163, 133, 125) !important;
+    border: red !important;
+}
